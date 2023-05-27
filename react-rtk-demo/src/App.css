@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: screen;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    gap: 20px;
+}
